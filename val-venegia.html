@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&family=Prata&display=swap');
+
+
+        body{
+            margin: 0;
+            background-color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main-section {
+            padding: 20px;
+        }
+
+        .image-container {
+            height: 500px;
+            background-image: url(https://images.unsplash.com/photo-1615376506233-f0821173ddee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+
+        h1{
+            font-family: 'Prata', serif;
+            font-size: 64px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+
+        h3{
+            font-family: 'Prata', serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        a{
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        h6{
+            color: white;
+            padding: 22px;
+            margin-top: 56px;
+            margin-bottom: 0;
+            border-radius: 6px;
+            background: linear-gradient(45deg, #268b99,#ff8036);
+        }
+
+        #elenco a{
+            text-decoration: none;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        #elenco a:visited{
+            color: #268b99;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            border-bottom:#dfdfdf solid 1px;
+            
+        }
+
+        .footer-wrapper{
+            background-color: black;
+            color: white;
+            padding: 16px;
+        }
+
+        .footer-wrapper p{
+            text-align: center;
+        }
+
+        .footer-wrapper a {
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        .footer-wrapper a:visited {
+            text-decoration: none;
+            
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-section">
+
+        <div class="image-container">
+            
+
+        </div>
+
+        <h1>Val Venegia</h1>
+        <h3>San Martino di Castrozza, Trentino Alto Adige, Italia</h3>
+        <p>Autore:<a href="https://unsplash.com/it/@cristina_gottardi" target="_blank">Cristina Gottardi</a></p>
+        <h6>Luoghi correlati</h6>
+        <div id="elenco">
+            <ul>
+                <li><a href="./funes.html"> Funes</a></li>
+                <li><a href="./tre-cime.html"> Tre cime di Lavaredo</a></li>
+                <li><a href="./lago-fusine.html"> Lago di Fusine</a></li>
+                <li><a href="./index.html">Corvara</a></li>
+                <li><a href="./madonna-campiglio.html"> Madonna di Campiglio</a></li>        
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-wrapper">
+
+        <p><a href="./index.html"> Home</a></p>
+
+    </div>
+    
+</body>
+</html>
